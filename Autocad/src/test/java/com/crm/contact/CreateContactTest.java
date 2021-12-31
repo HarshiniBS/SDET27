@@ -10,4 +10,9 @@ public class CreateContactTest {
 	{
 		Reporter.log("contact created",true);
 	}
+	@Test(groups="regression")
+	public void DeleteCreate()
+	{
+		Reporter.log("contact deleted",true);
+	}
 	}
